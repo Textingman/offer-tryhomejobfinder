@@ -46,29 +46,29 @@ export default function SignupPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/NRCVerify.png" 
+                  src="/InovaLogo.png" 
                   alt="Inova Adv" 
                   width={500} 
                   height={167}
-                  className="h-24 w-auto"
+                  className="h-32 w-auto"
                 />
               </Link>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-gray-600 hover:text-[#2563eb] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#6B7280] hover:text-[#3B82F6] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-gray-600 hover:text-[#2563eb] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#6B7280] hover:text-[#3B82F6] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-gray-600 hover:text-[#2563eb] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#6B7280] hover:text-[#3B82F6] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-gray-600 hover:text-[#2563eb] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#6B7280] hover:text-[#3B82F6] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="bg-[#2563eb] text-white hover:bg-[#1d4ed8] px-4 py-2 rounded-md text-sm font-medium">
+                <Link href="/signup" className="bg-[#3B82F6] text-white hover:bg-[#2563eb] px-4 py-2 rounded-md text-sm font-medium">
                   Get Started
                 </Link>
               </div>
@@ -78,13 +78,13 @@ export default function SignupPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-green-50 to-white py-12">
+      <section className="bg-gradient-to-b from-gray-50 to-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
+            <h1 className="text-4xl font-extrabold text-[#2F3A40] mb-4">
               Get Started with Inova Adv
             </h1>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-[#6B7280] max-w-2xl mx-auto">
               Fill out the form below and we'll get back to you within 24 hours to set up your account.
             </p>
           </div>
@@ -101,8 +101,8 @@ export default function SignupPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Thank You!</h2>
-              <p className="text-lg text-gray-600 mb-8">
+              <h2 className="text-3xl font-bold text-[#2F3A40] mb-4">Thank You!</h2>
+              <p className="text-lg text-[#6B7280] mb-8">
                 We've received your request. Our team will contact you within 24 hours to get you started.
               </p>
               <Link
@@ -115,8 +115,8 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign Up for Inova Adv</h2>
-                <p className="text-gray-600">
+                <h2 className="text-2xl font-bold text-[#2F3A40] mb-2">Sign Up for Inova Adv</h2>
+                <p className="text-[#6B7280]">
                   Complete the form below to start verifying your customers with confidence.
                 </p>
               </div>
@@ -228,12 +228,12 @@ export default function SignupPage() {
                 {/* Consent Checkboxes */}
                 <div className="space-y-4">
                   {/* SMS Consent Checkbox */}
-                  <div className="bg-[#3b3a41] text-white rounded-lg p-6">
+                  <div className="bg-[#2F3A40] text-white rounded-lg p-6">
                     <div className="flex items-start">
                       <input
                         type="checkbox"
                         id="sms-consent"
-                        className="mt-1 h-4 w-4 text-[#2563eb] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
+                        className="mt-1 h-4 w-4 text-[#3B82F6] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
                         By checking this box, you provide consent to receive automated SMS messages from Inova Adv. Message frequency varies and message and data rates may apply. You may opt-out by replying 'STOP'. Reply 'HELP' for help or email support@inovaadv.com. Consent is not required as a condition of purchasing any products or services.
@@ -242,12 +242,12 @@ export default function SignupPage() {
                   </div>
 
                   {/* Call Consent Checkbox */}
-                  <div className="bg-[#3b3a41] text-white rounded-lg p-6">
+                  <div className="bg-[#2F3A40] text-white rounded-lg p-6">
                     <div className="flex items-start">
                       <input
                         type="checkbox"
                         id="call-consent"
-                        className="mt-1 h-4 w-4 text-[#2563eb] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
+                        className="mt-1 h-4 w-4 text-[#3B82F6] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="call-consent" className="ml-3 text-sm leading-relaxed">
                         By checking this box, you provide consent to receive automated customer care calls from Inova Adv. Call frequency varies and standard phone rates may apply. You may opt-out at any time by contacting support@inovaadv.com. Consent is not required as a condition of purchasing any products or services.
@@ -263,7 +263,7 @@ export default function SignupPage() {
                         id="account-notifications"
                         checked={accountNotifications}
                         onChange={(e) => setAccountNotifications(e.target.checked)}
-                        className="mt-1 h-4 w-4 text-[#2563eb] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
+                        className="mt-1 h-4 w-4 text-[#3B82F6] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="account-notifications" className="ml-3 text-sm leading-relaxed text-gray-700">
                         By checking this box, you consent to receive account notifications, service updates, and important information about your Inova Adv account via email and SMS. You may opt-out at any time by contacting support@inovaadv.com or by following the unsubscribe instructions in our communications. Consent is not required as a condition of purchasing any products or services.
@@ -277,15 +277,15 @@ export default function SignupPage() {
                       <input
                         type="checkbox"
                         id="terms-consent"
-                        className="mt-1 h-4 w-4 text-[#2563eb] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
+                        className="mt-1 h-4 w-4 text-[#3B82F6] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="terms-consent" className="ml-3 text-sm leading-relaxed text-gray-700">
                         I agree with the{' '}
-                        <Link href="/terms" className="text-[#2563eb] hover:text-[#1d4ed8] font-medium underline">
+                        <Link href="/terms" className="text-[#3B82F6] hover:text-[#1d4ed8] font-medium underline">
                           Terms & Conditions
                         </Link>{' '}
                         and{' '}
-                        <Link href="/privacy" className="text-[#2563eb] hover:text-[#1d4ed8] font-medium underline">
+                        <Link href="/privacy" className="text-[#3B82F6] hover:text-[#1d4ed8] font-medium underline">
                           Privacy Policy
                         </Link>
                         .
@@ -327,7 +327,7 @@ export default function SignupPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#3b3a41] text-white py-12 mt-20">
+      <footer className="bg-[#2F3A40] text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
