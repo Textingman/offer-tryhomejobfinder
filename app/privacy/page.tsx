@@ -196,7 +196,7 @@ export default function PrivacyPage() {
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
             <p className="text-[#6B7280] mb-2"><strong>Email:</strong> <a href="mailto:privacy@inovaverify.com" className="text-[#3B82F6] hover:text-[#1d4ed8]">privacy@inovaverify.com</a></p>
             <p className="text-[#6B7280] mb-2"><strong>Support:</strong> <a href="mailto:support@inovaverify.com" className="text-[#3B82F6] hover:text-[#1d4ed8]">support@inovaverify.com</a></p>
-            <p className="text-[#6B7280]"><strong>Website:</strong> <a href="/" className="text-[#3B82F6] hover:text-[#1d4ed8]">https://inovaadv.com</a></p>
+            <p className="text-[#6B7280]"><strong>Website:</strong> <a href="/" className="text-[#3B82F6] hover:text-[#1d4ed8]">https://inovaverify.com</a></p>
           </div>
 
         </div>

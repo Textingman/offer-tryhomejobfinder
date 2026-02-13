@@ -138,7 +138,7 @@ export default function SignupPage() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent"
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent text-gray-900"
                       placeholder="John Doe"
                     />
                   </div>
@@ -160,7 +160,7 @@ export default function SignupPage() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent"
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent text-gray-900"
                       placeholder="john@company.com"
                     />
                   </div>
@@ -182,7 +182,7 @@ export default function SignupPage() {
                       required
                       value={formData.company}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent"
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent text-gray-900"
                       placeholder="Acme Inc."
                     />
                   </div>
@@ -203,7 +203,7 @@ export default function SignupPage() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent"
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent text-gray-900"
                       placeholder="(555) 123-4567"
                     />
                   </div>
@@ -220,7 +220,7 @@ export default function SignupPage() {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent"
+                    className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563eb] focus:border-transparent text-gray-900"
                     placeholder="What are your authentication needs?"
                   />
                 </div>
@@ -233,40 +233,12 @@ export default function SignupPage() {
                       <input
                         type="checkbox"
                         id="sms-consent"
-                        className="mt-1 h-4 w-4 text-[#3B82F6] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
-                      />
-                      <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box, you provide consent to receive automated SMS messages from Inova Verify. Message frequency varies and message and data rates may apply. You may opt-out by replying 'STOP'. Reply 'HELP' for help or email support@inovaverify.com. Consent is not required as a condition of purchasing any products or services.
-                      </label>
-                    </div>
-                  </div>
-
-                  {/* Call Consent Checkbox */}
-                  <div className="bg-[#2F3A40] text-white rounded-lg p-6">
-                    <div className="flex items-start">
-                      <input
-                        type="checkbox"
-                        id="call-consent"
-                        className="mt-1 h-4 w-4 text-[#3B82F6] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
-                      />
-                      <label htmlFor="call-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box, you provide consent to receive automated customer care calls from Inova Verify. Call frequency varies and standard phone rates may apply. You may opt-out at any time by contacting support@inovaverify.com. Consent is not required as a condition of purchasing any products or services.
-                      </label>
-                    </div>
-                  </div>
-
-                  {/* Account Notifications Opt-in Checkbox */}
-                  <div className="bg-gray-50 border border-gray-300 rounded-lg p-6">
-                    <div className="flex items-start">
-                      <input
-                        type="checkbox"
-                        id="account-notifications"
                         checked={accountNotifications}
                         onChange={(e) => setAccountNotifications(e.target.checked)}
                         className="mt-1 h-4 w-4 text-[#3B82F6] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
                       />
-                      <label htmlFor="account-notifications" className="ml-3 text-sm leading-relaxed text-gray-700">
-                        By checking this box, you consent to receive account notifications, service updates, and important information about your Inova Verify account via email and SMS. You may opt-out at any time by contacting support@inovaverify.com or by following the unsubscribe instructions in our communications. Consent is not required as a condition of purchasing any products or services.
+                      <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
+                        By checking this box, you agree to receive account notification text messages from Inova Verify. I understand I may opt out of SMS communication by replying 'STOP'. Text HELP for help. Message and Data rates may apply. Message frequency may vary. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form.
                       </label>
                     </div>
                   </div>
@@ -316,10 +288,6 @@ export default function SignupPage() {
                     'Get Started'
                   )}
                 </button>
-
-                <p className="text-center text-sm text-gray-500">
-                  Note: Web3Forms integration will be added in a future update.
-                </p>
               </form>
             </>
           )}
