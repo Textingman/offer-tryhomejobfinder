@@ -11,8 +11,8 @@ export default function PrivacyPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/InovaLogo.png" 
-                  alt="Inova Verify" 
+                  src="/HJF_logo.png" 
+                  alt="TryHomeJobFinder" 
                   width={500} 
                   height={167}
                   className="h-32 w-auto"
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
           
           <h2 className="text-2xl font-bold text-[#2F3A40] mt-8 mb-4">1. Introduction</h2>
           <p className="text-[#6B7280] mb-6">
-            Inova Verify ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our SMS verification service and website.
+            TryHomeJobFinder ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our resume analysis and career coaching service and website.
           </p>
 
           <h2 className="text-2xl font-bold text-[#2F3A40] mt-8 mb-4">2. Information We Collect</h2>
@@ -66,7 +66,7 @@ export default function PrivacyPage() {
           <h3 className="text-xl font-semibold text-[#2F3A40] mt-6 mb-3">2.1 Information You Provide</h3>
           <p className="text-[#6B7280] mb-4">When you sign up for our service, we may collect:</p>
           <ul className="list-disc pl-6 text-[#6B7280] mb-6 space-y-2">
-            <li>Name and contact information (email, phone number)</li>
+            <li>Name and contact information (email, resume)</li>
             <li>Company name and business information</li>
             <li>Account credentials</li>
             <li>Payment information (processed by third-party payment processors)</li>
@@ -83,7 +83,7 @@ export default function PrivacyPage() {
 
           <h3 className="text-xl font-semibold text-[#2F3A40] mt-6 mb-3">2.3 Phone Number Handling</h3>
           <p className="text-[#6B7280] mb-6">
-            <strong>Important:</strong> We do NOT store phone numbers used in the verification process. Phone numbers are only displayed (masked) during the verification flow and are not logged or retained in our systems. All tracking parameters are passed through without storing personal identifiable information.
+            <strong>Important:</strong> We do NOT store resumes used in the verification process. Phone numbers are only displayed (masked) during the verification flow and are not logged or retained in our systems. All tracking parameters are passed through without storing personal identifiable information.
           </p>
 
           <h3 className="text-xl font-semibold text-[#2F3A40] mt-6 mb-3">2.4 Mobile Information Sharing</h3>
@@ -156,7 +156,7 @@ export default function PrivacyPage() {
             <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
           </ul>
           <p className="text-[#6B7280] mb-6">
-            To exercise these rights, please contact us at <a href="mailto:privacy@inovaverify.com" className="text-[#3B82F6] hover:text-[#1d4ed8]">privacy@inovaverify.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:privacy@tryhomejobfinder.com" className="text-[#3B82F6] hover:text-[#1d4ed8]">privacy@tryhomejobfinder.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-[#2F3A40] mt-8 mb-4">8. Cookies and Tracking Technologies</h2>
@@ -194,9 +194,9 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-[#6B7280] mb-2"><strong>Email:</strong> <a href="mailto:privacy@inovaverify.com" className="text-[#3B82F6] hover:text-[#1d4ed8]">privacy@inovaverify.com</a></p>
-            <p className="text-[#6B7280] mb-2"><strong>Support:</strong> <a href="mailto:support@inovaverify.com" className="text-[#3B82F6] hover:text-[#1d4ed8]">support@inovaverify.com</a></p>
-            <p className="text-[#6B7280]"><strong>Website:</strong> <a href="/" className="text-[#3B82F6] hover:text-[#1d4ed8]">https://inovaverify.com</a></p>
+            <p className="text-[#6B7280] mb-2"><strong>Email:</strong> <a href="mailto:privacy@tryhomejobfinder.com" className="text-[#3B82F6] hover:text-[#1d4ed8]">privacy@tryhomejobfinder.com</a></p>
+            <p className="text-[#6B7280] mb-2"><strong>Support:</strong> <a href="mailto:support@tryhomejobfinder.com" className="text-[#3B82F6] hover:text-[#1d4ed8]">support@tryhomejobfinder.com</a></p>
+            <p className="text-[#6B7280]"><strong>Website:</strong> <a href="/" className="text-[#3B82F6] hover:text-[#1d4ed8]">https://tryhomejobfinder.com</a></p>
           </div>
 
         </div>
@@ -207,9 +207,9 @@ export default function PrivacyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Inova Verify</h3>
+              <h3 className="text-xl font-bold mb-4">TryHomeJobFinder</h3>
               <p className="text-gray-400">
-                Carrier-compliant SMS verification for businesses.
+                Carrier-compliant resume analysis and career coaching for businesses.
               </p>
             </div>
             <div>
@@ -245,12 +245,12 @@ export default function PrivacyPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@inovaverify.com
+                support@tryhomejobfinder.com
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Inova Verify. All rights reserved.</p>
+            <p>&copy; 2025 TryHomeJobFinder. All rights reserved.</p>
           </div>
         </div>
       </footer>

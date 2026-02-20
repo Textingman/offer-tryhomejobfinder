@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Inova Verify - SMS Verification Solutions",
-  description: "Secure SMS authentication and verification solutions for businesses",
+  title: "TryHomeJobFinder - Resume Analysis & Job Prep",
+  description: "AI-powered resume analysis and job application tips to help you land your dream job",
 };
 
 export default function RootLayout({

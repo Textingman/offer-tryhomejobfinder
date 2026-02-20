@@ -46,8 +46,8 @@ export default function SignupPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/InovaLogo.png" 
-                  alt="Inova Verify" 
+                  src="/HJF_logo.png" 
+                  alt="TryHomeJobFinder" 
                   width={500} 
                   height={167}
                   className="h-32 w-auto"
@@ -82,7 +82,7 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold text-[#2F3A40] mb-4">
-              Begin Your Journey with Inova Verify
+              Begin Your Journey with TryHomeJobFinder
             </h1>
             <p className="text-xl text-[#6B7280] max-w-2xl mx-auto">
               Complete the form below and our team will reach out within 24 hours to activate your account.
@@ -115,7 +115,7 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-[#2F3A40] mb-2">Register for Inova Verify</h2>
+                <h2 className="text-2xl font-bold text-[#2F3A40] mb-2">Register for TryHomeJobFinder</h2>
                 <p className="text-[#6B7280]">
                   Fill out this form to begin authenticating your users with certainty.
                 </p>
@@ -238,7 +238,7 @@ export default function SignupPage() {
                         className="mt-1 h-4 w-4 text-[#3B82F6] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box, you agree to receive account notification text messages from Inova Verify. I understand I may opt out of SMS communication by replying 'STOP'. Text HELP for help. Message and Data rates may apply. Message frequency may vary. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form.
+                        By checking this box, you agree to receive account notification text messages from TryHomeJobFinder. I understand I may opt out of SMS communication by replying 'STOP'. Text HELP for help. Message and Data rates may apply. Message frequency may vary. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form.
                       </label>
                     </div>
                   </div>
@@ -299,9 +299,9 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Inova Verify</h3>
+              <h3 className="text-xl font-bold mb-4">TryHomeJobFinder</h3>
               <p className="text-gray-400">
-                Secure SMS authentication solutions.
+                Secure career development solutions.
               </p>
             </div>
             <div>
@@ -337,12 +337,12 @@ export default function SignupPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@inovaverify.com
+                support@tryhomejobfinder.com
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Inova Verify. All rights reserved.</p>
+            <p>&copy; 2025 TryHomeJobFinder. All rights reserved.</p>
           </div>
         </div>
       </footer>

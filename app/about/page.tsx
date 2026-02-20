@@ -12,8 +12,8 @@ export default function AboutPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/InovaLogo.png" 
-                  alt="Inova Verify" 
+                  src="/HJF_logo.png" 
+                  alt="TryHomeJobFinder" 
                   width={500} 
                   height={167}
                   className="h-32 w-auto"
@@ -51,7 +51,7 @@ export default function AboutPage() {
               Who We Are
             </h1>
             <p className="text-xl text-[#6B7280] max-w-3xl mx-auto">
-              We're pioneering next-generation SMS authentication, empowering organizations to validate user identities while maximizing message deliverability.
+              We're revolutionizing the job search process with AI-powered tools that help job seekers optimize their resumes, ace interviews, and land their dream careers.
             </p>
           </div>
         </div>
@@ -63,13 +63,13 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold text-[#2F3A40] mb-6">Our Purpose</h2>
             <p className="text-lg text-[#6B7280] mb-4">
-              Inova Verify emerged to address a fundamental challenge: organizations require dependable SMS-based identity validation without compromising delivery performance.
+              TryHomeJobFinder was created to solve a critical problem: job seekers struggle to stand out in competitive markets and often don't know how to optimize their applications for success.
             </p>
             <p className="text-lg text-[#6B7280] mb-4">
-              We deliver an intuitive, fortified authentication platform serving as the reliable bridge connecting businesses with their users.
+              We provide AI-powered tools that analyze resumes, generate tailored cover letters, and offer personalized interview coaching to help candidates present their best selves.
             </p>
             <p className="text-lg text-[#6B7280]">
-              Our mission is making SMS authentication frictionless, protected, and attainable for organizations across every scale.
+              Our mission is to democratize access to professional career coaching and make job search success achievable for everyone, regardless of background or experience level.
             </p>
           </div>
           <div className="bg-gray-50 rounded-2xl p-8">
@@ -79,9 +79,9 @@ export default function AboutPage() {
                   <Target className="w-8 h-8 text-[#3B82F6]" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-[#2F3A40] mb-2">Quality-Driven</h3>
+                  <h3 className="text-lg font-semibold text-[#2F3A40] mb-2">AI-Powered Insights</h3>
                   <p className="text-[#6B7280]">
-                    Engineered from inception to exceed industry benchmarks and professional standards.
+                    Advanced algorithms analyze your resume and provide actionable feedback to maximize your success rate.
                   </p>
                 </div>
               </div>
@@ -90,9 +90,9 @@ export default function AboutPage() {
                   <Shield className="w-8 h-8 text-[#3B82F6]" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-[#2F3A40] mb-2">Security-Centric</h3>
+                  <h3 className="text-lg font-semibold text-[#2F3A40] mb-2">Privacy Protected</h3>
                   <p className="text-[#6B7280]">
-                    User information safeguarded through enterprise-level protection protocols.
+                    Your resume and personal data are encrypted and never shared with third parties.
                   </p>
                 </div>
               </div>
@@ -101,9 +101,9 @@ export default function AboutPage() {
                   <Zap className="w-8 h-8 text-[#3B82F6]" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-[#2F3A40] mb-2">Exceptionally Swift</h3>
+                  <h3 className="text-lg font-semibold text-[#2F3A40] mb-2">Instant Results</h3>
                   <p className="text-[#6B7280]">
-                    Performance-tuned for under 2-second load times across cellular networks.
+                    Get immediate feedback on your resume with real-time analysis and suggestions.
                   </p>
                 </div>
               </div>
@@ -116,9 +116,9 @@ export default function AboutPage() {
       {/* Why Choose Us Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#2F3A40] mb-4">Why Organizations Select Us</h2>
+          <h2 className="text-4xl font-bold text-[#2F3A40] mb-4">Why Job Seekers Choose Us</h2>
           <p className="text-xl text-[#6B7280]">
-            Preferred by enterprises prioritizing regulatory adherence, data protection, and dependability
+            Trusted by thousands of professionals who have successfully landed their dream jobs
           </p>
         </div>
 
@@ -172,7 +172,7 @@ export default function AboutPage() {
             Ready to Begin?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Partner with organizations trusting Inova Verify for SMS authentication excellence.
+            Join thousands of job seekers who have transformed their careers with TryHomeJobFinder's AI-powered tools.
           </p>
           <Link
             href="/signup"
@@ -188,9 +188,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Inova Verify</h3>
+              <h3 className="text-xl font-bold mb-4">TryHomeJobFinder</h3>
               <p className="text-gray-400">
-                Secure SMS authentication solutions.
+                AI-powered career tools for job seekers.
               </p>
             </div>
             <div>
@@ -226,12 +226,12 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@inovaverify.com
+                support@tryhomejobfinder.com
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Inova Verify. All rights reserved.</p>
+            <p>&copy; 2025 TryHomeJobFinder. All rights reserved.</p>
           </div>
         </div>
       </footer>

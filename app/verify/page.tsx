@@ -24,7 +24,7 @@ function VerifyPageContent() {
     setPhone(phoneParam);
   }, [searchParams]);
 
-  // Mask phone number to show only last 4 digits
+  // Mask resume to show only last 4 digits
   const maskPhone = (phoneNumber: string): string => {
     if (!phoneNumber) return '';
     
@@ -70,8 +70,8 @@ function VerifyPageContent() {
         {/* Logo/Brand */}
         <div className="flex justify-center mb-8">
           <Image 
-            src="/InovaLogo.png" 
-            alt="Inova Verify" 
+            src="/HJF_logo.png" 
+            alt="TryHomeJobFinder" 
             width={320} 
             height={107}
             className="h-32 w-auto"
@@ -94,7 +94,7 @@ function VerifyPageContent() {
               type="tel"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              placeholder="Enter phone number"
+              placeholder="Enter resume"
               className="w-full bg-gray-50 rounded-lg p-6 text-3xl font-bold text-gray-900 tracking-wider text-center border-2 border-gray-200 focus:border-[#2563eb] focus:outline-none transition-colors"
             />
           </div>
@@ -126,7 +126,7 @@ function VerifyPageContent() {
         {/* Footer */}
         <div className="text-center pt-6 border-t border-gray-200">
           <p className="text-xs text-gray-500">
-            Secured by Inova Verify
+            Secured by TryHomeJobFinder
           </p>
         </div>
       </div>
