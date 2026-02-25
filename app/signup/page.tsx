@@ -238,7 +238,7 @@ export default function SignupPage() {
                         className="mt-1 h-4 w-4 text-[#3B82F6] focus:ring-[#2563eb] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box and submitting this form, you agree to receive account notification & customer care text messages from TryHomeJobFinder. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@tryhomejobfinder.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by {'{Brand}'}.
+                        By checking this box and submitting this form, you agree to receive account notification & customer care text messages from Home Job Finder. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@tryhomejobfinder.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by Home Job Finder.
                       </label>
                     </div>
                   </div>
