@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -29,19 +28,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <Script
-          src="https://www.obfst.com/scripts/main.js"
-          strategy="afterInteractive"
-        />
-        <Script id="ef-click" strategy="afterInteractive">
-          {`
-            EF.click({
-              offer_id: 1807,
-              affiliate_id: 2357,
-              sub1: '%%phone%%'
-            });
-          `}
-        </Script>
       </body>
     </html>
   );

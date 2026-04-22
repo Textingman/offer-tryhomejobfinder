@@ -4,6 +4,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import { useState, useEffect, Suspense } from 'react';
 import Image from 'next/image';
 import { CheckCircle } from 'lucide-react';
+import EverflowTracking from '../components/EverflowTracking';
 
 function VerifyPageContent() {
   const searchParams = useSearchParams();
@@ -136,15 +137,18 @@ function VerifyPageContent() {
 
 export default function VerifyPage() {
   return (
-    <Suspense fallback={
-      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#2563eb] mx-auto"></div>
-          <p className="mt-4 text-gray-600">Loading...</p>
+    <>
+      <EverflowTracking />
+      <Suspense fallback={
+        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#2563eb] mx-auto"></div>
+            <p className="mt-4 text-gray-600">Loading...</p>
+          </div>
         </div>
-      </div>
-    }>
-      <VerifyPageContent />
-    </Suspense>
+      }>
+        <VerifyPageContent />
+      </Suspense>
+    </>
   );
 }
